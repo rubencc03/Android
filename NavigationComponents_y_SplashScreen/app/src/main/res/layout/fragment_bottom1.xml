@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".bottom1Fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="518dp"
+            android:layout_height="300dp"
+            android:layout_marginBottom="420dp"
+            android:src="@drawable/copa"
+            app:layout_constraintBottom_toBottomOf="@+id/textView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.504"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="387dp"
+            android:layout_height="422dp"
+            android:text="El Valencia club de futbol se proclamo campeón de la copa del rey el 25 de mayo de 2019.\n  \nEsta final fue dirigida por Marcelino Garcia Toral en el banquillo che y por Ernesto Valverde en la disciplina culé \n \nEl resultado del partido fue un 2/1 a favor de los ches en los que marcaron Rodrigo Moreno y Gameiro por parte del club blanquinegre y Lionel Messi por parte del Barcelona FC \n\n Puta Barcelona"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.948" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

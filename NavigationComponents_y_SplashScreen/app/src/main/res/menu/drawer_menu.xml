@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/drawer1Fragment"
+        android:icon="@drawable/first"
+        android:title="Top1"
+        android:iconTint="@color/orange"
+        />
+
+    <item
+        android:id="@+id/drawer2Fragment"
+        android:icon="@drawable/second"
+        android:title="Top2"
+        android:iconTint="@color/orange"
+
+        />
+
+    <item
+        android:id="@+id/drawer3Fragment"
+        android:icon="@drawable/third"
+        android:title="Top3"
+        android:iconTint="@color/orange"
+
+        />
+</menu>
