@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="planets_array">
+        <item>Carne</item>
+        <item>Verdura</item>
+        <item>Congelado</item>
+        <item>Muebles</item>
+        <item>Medicinas</item>
+        <item>Herramientas</item>
+    </string-array>
+</resources>
