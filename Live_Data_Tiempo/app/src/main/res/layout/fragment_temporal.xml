@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Temporal">
+
+    <ImageView
+        android:id="@+id/ivExercise"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/tvRepetition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:backgroundTint="#000000"
+        android:fontFamily="@font/aldrich"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/queTiempoHace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:fontFamily="@font/aldrich"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/tvChange"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#E91E63"
+        android:fontFamily="@font/aldrich"
+        android:gravity="center"
+        android:text="El meteorólogo esta ocupado prediciendo el tiempo,en cuando lo sepamos,lo tendreis"
+        android:textColor="@color/white"
+        android:textSize="48sp"
+        android:visibility="gone" />
+</FrameLayout>
